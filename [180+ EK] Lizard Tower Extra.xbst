@@ -1,0 +1,17 @@
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Lizard High Guard" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Lizard Legionnaire" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Lizard Dragon Priest" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Dragon Hatchling" chs="0" max="100" min="0" prio="10" prox="1" count="4"/>
+		<item type="Toad" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Death Blob" chs="0" max="100" min="0" prio="10" prox="1" count="1"/>
+		<item type="Insect Swarm" chs="0" max="100" min="0" prio="10" prox="1" count="1"/>
+		<item type="Mutated Tiger" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Killer Caiman" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Lizard Legionnnaire" chs="0" max="100" min="0" prio="10" prox="7" count="3"/>
+		<item type="Mutated Bat" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Mutated Rat" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Souleater" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+	</control>
+</panel>

@@ -1,0 +1,9 @@
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Gargoyle" chs="0" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Stone Golem" chs="0" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Ice Golem" chs="0" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Novice of the cult" chs="0" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Mammoth" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+	</control>
+</panel>

@@ -1,0 +1,46 @@
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Souleater" chs="6" max="100" min="0" prio="10" prox="1" count="1"/>
+		<item type="Mutated Rat" chs="6" max="100" min="0" prio="10" prox="1" count="2"/>
+		<item type="Mutated Tiger" chs="6" max="100" min="0" prio="10" prox="1" count="2"/>
+		<item type="Mutated Bat" chs="6" max="100" min="0" prio="10" prox="1" count="2"/>
+		<item type="Death Blob" chs="6" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Brimstone Bug" chs="6" max="100" min="0" prio="10" prox="3" count="2"/>
+		<item type="Wailing Widow" chs="6" max="100" min="0" prio="10" prox="3" count="2"/>
+		<item type="Lancer Beetle" chs="6" max="100" min="0" prio="10" prox="3" count="2"/>
+		<item type="Brimstone Bug" chs="7" max="100" min="0" prio="10" prox="5" count="2"/>
+		<item type="Wailing Widow" chs="7" max="100" min="0" prio="10" prox="5" count="2"/>
+		<item type="Lancer Beetle" chs="7" max="100" min="0" prio="10" prox="5" count="2"/>
+		<item type="Brimstone Bug" chs="2" max="40" min="0" prio="10" prox="7" count="1"/>
+		<item type="Wailing Widow" chs="2" max="40" min="0" prio="10" prox="7" count="1"/>
+		<item type="Lancer Beetle" chs="2" max="40" min="0" prio="10" prox="7" count="1"/>
+		<item type="Brimstone Bug" chs="7" max="100" min="41" prio="10" prox="1" count="1"/>
+		<item type="Wailing Widow" chs="7" max="100" min="41" prio="10" prox="1" count="1"/>
+		<item type="Lancer Beetle" chs="7" max="100" min="41" prio="10" prox="1" count="1"/>
+		<item type="Lancer Beetle" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Brimstone Bug" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Wailing Widow widow" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Lizard High Guard" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Haunted Treeling" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Lizard Legionnaire" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Lizard Dragon Priest" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Dragon Hatchling" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Sandcrawler" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Gnarlhound" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Orc Warrior" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Orc" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Insect Swarm" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Killer Caiman" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Haunted Treeling" chs="7" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Souleater" chs="6" max="100" min="0" prio="10" prox="3" count="1"/>
+		<item type="Mutated Bat" chs="6" max="100" min="0" prio="10" prox="3" count="2"/>
+		<item type="Mutated Rat" chs="6" max="100" min="0" prio="10" prox="3" count="2"/>
+		<item type="Mutated Tiger" chs="6" max="100" min="0" prio="10" prox="3" count="2"/>
+		<item type="Souleater" chs="6" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Mutated Bat" chs="6" max="100" min="0" prio="10" prox="7" count="2"/>
+		<item type="Mutated Rat" chs="6" max="100" min="0" prio="10" prox="7" count="2"/>
+		<item type="Mutated Tiger" chs="6" max="100" min="0" prio="10" prox="7" count="2"/>
+		<item type="Mutated Bat" chs="0" max="45" min="0" prio="10" prox="7" count="1"/>
+		<item type="Mutated Tiger" chs="0" max="45" min="0" prio="10" prox="7" count="1"/>
+	</control>
+</panel>

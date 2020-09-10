@@ -1,0 +1,13 @@
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Spidris" chs="0" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Kollos" chs="0" max="100" min="0" prio="4" prox="7" count="1"/>
+		<item type="Spitter" chs="0" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Crawler" chs="0" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Waspoid" chs="0" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Insectoid Worker" chs="0" max="100" min="0" prio="1" prox="7" count="1"/>
+		<item type="Swarmer" chs="0" max="100" min="0" prio="10" prox="3" count="1"/>
+		<item type="Lady Bug" chs="0" max="100" min="0" prio="0" prox="7" count="1"/>
+		<item type="Lesser Swarmer" chs="0" max="100" min="0" prio="10" prox="3" count="1"/>
+	</control>
+</panel>

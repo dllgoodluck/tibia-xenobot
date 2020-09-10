@@ -1,0 +1,39 @@
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Medusa" chs="0" max="15" min="0" prio="4" prox="7" count="1"/>
+		<item type="Serpent Spawn" chs="0" max="15" min="0" prio="4" prox="7" count="1"/>
+		<item type="Hydra" chs="0" max="15" min="0" prio="4" prox="7" count="1"/>
+		<item type="xxxxxxxxx" chs="6" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Medusa" chs="3" max="100" min="16" prio="3" prox="2" count="1"/>
+		<item type="Serpent Spawn" chs="3" max="100" min="16" prio="3" prox="2" count="1"/>
+		<item type="Hydra" chs="3" max="100" min="16" prio="3" prox="2" count="1"/>
+		<item type="xxxxxxxxx" chs="6" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Medusa" chs="3" max="100" min="16" prio="3" prox="4" count="1"/>
+		<item type="Serpent Spawn" chs="3" max="100" min="16" prio="3" prox="4" count="1"/>
+		<item type="Hydra" chs="3" max="100" min="16" prio="3" prox="4" count="1"/>
+		<item type="xxxxxxxxx" chs="6" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Medusa" chs="3" max="100" min="16" prio="3" prox="7" count="1"/>
+		<item type="Serpent Spawn" chs="3" max="100" min="16" prio="3" prox="7" count="1"/>
+		<item type="Hydra" chs="3" max="100" min="16" prio="3" prox="7" count="1"/>
+		<item type="xxxxxxxxx" chs="6" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Eternal Guardian" chs="3" max="50" min="0" prio="1" prox="7" count="1"/>
+		<item type="Giant Spider" chs="0" max="100" min="0" prio="1" prox="7" count="1"/>
+		<item type="Bonebeast" chs="6" max="100" min="0" prio="3" prox="7" count="1"/>
+		<item type="Snake" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Poison Spider" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Spider" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Bug" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Wasp" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Bat" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Skunk" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Cobra" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Centipede" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Tiger" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Carniphila" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Terror Bird" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Cave Rat" chs="5" max="100" min="0" prio="4" prox="1" count="1"/>
+		<item type="Kongra" chs="5" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Sibang" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Merlkin" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+	</control>
+</panel>

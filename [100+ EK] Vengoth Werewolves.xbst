@@ -1,0 +1,438 @@
+<panel name="Spell Shooter">
+	<control name="shooterList">
+		<item spell="exori gran" rune="3155" srange="2" type="2" reason="1" minhp="0" maxhp="100" mana="10" count="3" creature="monster names" danger="2" targ="0" enabled="1"/>
+		<item spell="exori" rune="3155" srange="2" type="2" reason="1" minhp="0" maxhp="100" mana="10" count="2" creature="monster names" danger="2" targ="0" enabled="1"/>
+		<item spell="exori min" rune="3155" srange="9" type="2" reason="1" minhp="0" maxhp="100" mana="10" count="2" creature="monster names" danger="2" targ="0" enabled="1"/>
+		<item spell="exori ico" rune="3155" srange="1" type="0" reason="1" minhp="0" maxhp="100" mana="10" count="1" creature="monster names" danger="1" targ="0" enabled="1"/>
+		<item spell="exori hur" rune="3155" srange="5" type="0" reason="1" minhp="0" maxhp="100" mana="10" count="1" creature="monster names" danger="1" targ="0" enabled="1"/>
+	</control>
+</panel>
+<panel name="Dynamic Lure">
+	<control name="LureList">
+	</control>
+	<control name="AttackWhileLuring" value="1"/>
+</panel>
+<panel name="Self Healer">
+	<control name="SpellList">
+		<item spell="Exura Ico" mana="40" vcomp="0" vsign="1" vrandom="1" vvalue="85" enabled="1"/>
+	</control>
+	<control name="ItemList">
+		<item id="239" vcomp="0" vsign="1" vrandom="1" vvalue="50" enabled="1"/>
+		<item id="268" vcomp="0" vsign="3" vrandom="1" vvalue="70" enabled="1"/>
+	</control>
+</panel>
+<panel name="Support">
+	<control name="HiHealSpell" value="Exura"/>
+	<control name="HiHealHealth" value="85"/>
+	<control name="HiHealRange" value="3"/>
+	<control name="HiHealMana" value="20"/>
+	<control name="HiHealEnable" value="0"/>
+	<control name="LoHealSpell" value="Exura Gran"/>
+	<control name="LoHealHealth" value="66"/>
+	<control name="LoHealPerc" value="3"/>
+	<control name="LoHealMana" value="70"/>
+	<control name="LoHealEnable" value="0"/>
+	<control name="PotHealID" value="266"/>
+	<control name="PotHealHealth" value="50"/>
+	<control name="PotHealRange" value="5"/>
+	<control name="PotHealEnable" value="0"/>
+	<control name="ManaRestoreID" value="268"/>
+	<control name="ManaRestoreMana" value="50"/>
+	<control name="ManaRestoreEnable" value="0"/>
+</panel>
+<panel name="Frag Helper">
+	<control name="HoldTarg" value="0"/>
+	<control name="ComboEnable" value="0"/>
+</panel>
+<panel name="Tools">
+	<control name="EnableAntiIdle" value="0"/>
+	<control name="EnableEatFood" value="1"/>
+	<control name="EnableReconnect" value="0"/>
+	<control name="LightEnable" value="0"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="0"/>
+	<control name="ShowManaBar" value="0"/>
+	<control name="ShowBPInfo" value="0"/>
+	<control name="EnableAdvancedInfo" value="0"/>
+</panel>
+<panel name="Visuals">
+	<control name="LightEnable" value="0"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="0"/>
+	<control name="ShowManaBar" value="0"/>
+	<control name="ShowBPInfo" value="1"/>
+	<control name="EnableSmallBPs" value="1"/>
+	<control name="EnableAdvancedInfo" value="0"/>
+	<control name="ShowCleanWalls" value="0"/>
+	<control name="ShowDiagnostics" value="0"/>
+</panel>
+<panel name="Get Scripts">
+</panel>
+<panel name="Combo Options">
+	<control name="ComboSayLeader" value=""/>
+	<control name="ComboSayPhrase" value=""/>
+	<control name="ComboSayEnable" value="0"/>
+	<control name="ComboShotLeader" value=""/>
+	<control name="ComboShotType" value="0"/>
+	<control name="ComboShotEnable" value="0"/>
+	<control name="ComboExivaLeader" value=""/>
+	<control name="ComboExivaEnable" value="0"/>
+	<control name="ComboParaWatch" value="0"/>
+	<control name="ComboParaEnable" value="0"/>
+	<control name="ComboPartyWatch" value="0"/>
+	<control name="ComboPartyEnable" value="0"/>
+	<control name="ComboAttackSpell" value="Exevo Gran Mas Frigo"/>
+	<control name="ComboAttackSpellEnable" value="0"/>
+	<control name="ComboAttackRuneID" value="3155"/>
+	<control name="ComboAttackRuneEnable" value="0"/>
+	<control name="ComboFocusType" value="0"/>
+</panel>
+<panel name="HUD">
+	<control name="HUDItemList">
+		<item textColor="9" x="5" y="5" pos="4" checked="1"/>
+		<item textColor="9" x="5" y="5" pos="6" checked="0"/>
+		<item textColor="7" x="5" y="5" pos="0" checked="1"/>
+		<item textColor="7" x="5" y="5" pos="8" checked="0"/>
+		<item textColor="7" x="5" y="5" pos="10" checked="0"/>
+		<item textColor="13" x="5" y="5" pos="0" checked="0"/>
+		<item textColor="15" x="5" y="5" pos="2" checked="1"/>
+		<item textColor="0" x="0" y="0" pos="0" checked="0"/>
+	</control>
+	<control name="HPPercOnClick" value="0"/>
+	<control name="MPPercOnClick" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+	<control name="MPPercClickEnable" value="0"/>
+</panel>
+<panel name="Recent Loot">
+	<control name="LootMonsterList">
+	</control>
+	<control name="DisplaySelectLoot" value="0"/>
+	<control name="HideNothingLoot" value="0"/>
+</panel>
+<panel name="Spell Timers">
+	<control name="HUDSpellTimersList">
+		<item textColor="9" x="5" y="5" pos="4" checked="1"/>
+		<item textColor="9" x="5" y="5" pos="6" checked="1"/>
+		<item textColor="7" x="5" y="5" pos="0" checked="1"/>
+		<item textColor="7" x="5" y="5" pos="8" checked="1"/>
+		<item textColor="7" x="5" y="5" pos="10" checked="1"/>
+		<item textColor="13" x="5" y="5" pos="0" checked="1"/>
+		<item textColor="15" x="5" y="5" pos="2" checked="1"/>
+	</control>
+</panel>
+<panel name="Kill Counters">
+	<control name="KillCounterBox">
+	</control>
+	<control name="DisplaySelectCounters" value="0"/>
+	<control name="DisplayCountRatios" value="0"/>
+</panel>
+<panel name="Battle Information">
+	<control name="ShowTakenDamage" value="1"/>
+	<control name="ShowTakenAvgDamage" value="1"/>
+	<control name="ShowTakenBurstDamage" value="1"/>
+	<control name="ShowDealtDamage" value="1"/>
+	<control name="ShowTarget" value="1"/>
+	<control name="ShowFollow" value="1"/>
+	<control name="ShowExiva" value="1"/>
+</panel>
+<panel name="Experience Information">
+	<control name="ShowHourlyExp" value="1"/>
+	<control name="ShowExpTogo" value="1"/>
+	<control name="ShowTimeLeft" value="1"/>
+</panel>
+<panel name="Condition Manager">
+	<control name="PoisonCureLimit" value="6"/>
+	<control name="PoisonCureMana" value="20"/>
+	<control name="PoisonCureEnable" value="0"/>
+	<control name="DeathCureLimit" value="10"/>
+	<control name="DeathCureMana" value="40"/>
+	<control name="DeathCureEnable" value="0"/>
+	<control name="PhysicalCureLimit" value="5"/>
+	<control name="PhysicalCureMana" value="30"/>
+	<control name="PhysicalCureEnable" value="0"/>
+	<control name="FireCureLimit" value="20"/>
+	<control name="FireCureMana" value="30"/>
+	<control name="FireCureEnable" value="0"/>
+	<control name="EnergyCureLimit" value="15"/>
+	<control name="EnergyCureMana" value="30"/>
+	<control name="EnergyCureEnable" value="0"/>
+	<control name="ParaCureEnable" value="1"/>
+	<control name="ParaCureMana" value="40"/>
+	<control name="ParaCureSpell" value="Exura ico"/>
+	<control name="HasteCastMana" value="50"/>
+	<control name="HasteCastSpell" value="Utani Hur"/>
+	<control name="HasteCastEnable" value="0"/>
+	<control name="InvisibleCastMana" value="50"/>
+	<control name="InvisibleCastEnable" value="0"/>
+	<control name="ShieldCastMana" value="50"/>
+	<control name="ShieldCastEnable" value="0"/>
+	<control name="RecoveryCastEnable" value="0"/>
+	<control name="RecoveryCastType" value="0"/>
+	<control name="RecoveryCastMana" value="50"/>
+	<control name="RecoveryCheckPzEnable" value="1"/>
+</panel>
+<panel name="Equipment Manager">
+	<control name="AmmoRefillID" value="3450"/>
+	<control name="AmmoRefillEnable" value="0"/>
+	<control name="WeaponRefillID" value="7368"/>
+	<control name="WeaponRefillEnable" value="0"/>
+</panel>
+<panel name="Targeting">
+	<control name="TargetingList" antiks="0">
+		<item type="Werewolf" chs="1" max="100" min="0" prio="3" prox="7" count="1" elastic="0"/>
+		<item type="Haunted Treeling" chs="0" max="100" min="0" prio="10" prox="7" count="1" elastic="0"/>
+		<item type="Demon Skeleton" chs="0" max="100" min="0" prio="10" prox="7" count="1" elastic="0"/>
+		<item type="Slime" chs="0" max="100" min="0" prio="10" prox="7" count="1" elastic="0"/>
+		<item type="War Wolf" chs="0" max="100" min="0" prio="2" prox="7" count="1" elastic="0"/>
+		<item type="Scorpion" chs="0" max="100" min="0" prio="10" prox="7" count="1" elastic="0"/>
+	</control>
+</panel>
+<panel name="Walker">
+	<control name="WaypointList">
+		<item text="Start:" tag="255"/>
+		<item text="Depo|Yalahar:" tag="255"/>
+		<item text="Backpacks:" tag="255"/>
+		<item text="Stamina:" tag="255"/>
+		<item text="Stand (32783, 31248, 7)" tag="1"/>
+		<item text="Withdraw:" tag="255"/>
+		<item text="ToBank:" tag="255"/>
+		<item text="Node (32802, 31248, 7)" tag="0"/>
+		<item text="Node (32802, 31233, 7)" tag="0"/>
+		<item text="Node (32819, 31233, 7)" tag="0"/>
+		<item text="Node (32830, 31233, 7)" tag="0"/>
+		<item text="Node (32830, 31248, 7)" tag="0"/>
+		<item text="Stand (32824, 31248, 7)" tag="1"/>
+		<item text="BankNPC:" tag="255"/>
+		<item text="Node (32830, 31248, 7)" tag="0"/>
+		<item text="Node (32830, 31233, 7)" tag="0"/>
+		<item text="Node (32815, 31233, 7)" tag="0"/>
+		<item text="Node (32801, 31233, 7)" tag="0"/>
+		<item text="CheckSupplies:" tag="255"/>
+		<item text="Resupply:" tag="255"/>
+		<item text="Node (32790, 31233, 7)" tag="0"/>
+		<item text="Stand (32790, 31239, 7)" tag="1"/>
+		<item text="Stand (32789, 31239, 6)" tag="1"/>
+		<item text="PotionsNPC:" tag="255"/>
+		<item text="Stand (32789, 31239, 5)" tag="1"/>
+		<item text="Stand (32790, 31239, 6)" tag="1"/>
+		<item text="Node (32800, 31233, 7)" tag="0"/>
+		<item text="Stand (32800, 31248, 7)" tag="1"/>
+		<item text="CheckSofts:" tag="255"/>
+		<item text="GoSofts:" tag="255"/>
+		<item text="Stand (32802, 31255, 7)" tag="1"/>
+		<item text="Node (32811, 31259, 6)" tag="0"/>
+		<item text="Node (32811, 31271, 6)" tag="0"/>
+		<item text="Node (32817, 31272, 6)" tag="0"/>
+		<item text="b4DoorsShip:" tag="255"/>
+		<item text="Stand (32817, 31274, 6)" tag="1"/>
+		<item text="DoorsShip:" tag="255"/>
+		<item text="Ladder (32815, 31277, 6)" tag="2"/>
+		<item text="b4TravelVenore:" tag="255"/>
+		<item text="Stand (32284, 32891, 6)" tag="1"/>
+		<item text="TravelVenore:" tag="255"/>
+		<item text="Node (32954, 32023, 6)" tag="0"/>
+		<item text="Node (32954, 32050, 6)" tag="0"/>
+		<item text="Node (32954, 32073, 6)" tag="0"/>
+		<item text="Node (32949, 32098, 6)" tag="0"/>
+		<item text="Stand (32954, 32108, 6)" tag="1"/>
+		<item text="FixSoft:" tag="255"/>
+		<item text="Stand (32954, 32108, 6)" tag="1"/>
+		<item text="Node (32954, 32076, 6)" tag="0"/>
+		<item text="Node (32954, 32035, 6)" tag="0"/>
+		<item text="b4TravelYalahar:" tag="255"/>
+		<item text="Stand (32955, 32022, 6)" tag="1"/>
+		<item text="TravelYalahar:" tag="255"/>
+		<item text="Node (32811, 31272, 6)" tag="0"/>
+		<item text="Node (32811, 31260, 6)" tag="0"/>
+		<item text="Stand (32802, 31256, 6)" tag="1"/>
+		<item text="Node (32801, 31248, 7)" tag="0"/>
+		<item text="SkipSofts:" tag="255"/>
+		<item text="CheckSupplies:" tag="255"/>
+		<item text="GoHunt:" tag="255"/>
+		<item text="Node (32803, 31250, 7)" tag="0"/>
+		<item text="Node (32813, 31254, 7)" tag="0"/>
+		<item text="Node (32828, 31254, 7)" tag="0"/>
+		<item text="Node (32834, 31261, 7)" tag="0"/>
+		<item text="Stand (32834, 31263, 7)" tag="1"/>
+		<item text="Stand (32834, 31265, 6)" tag="1"/>
+		<item text="b4Lev1:" tag="255"/>
+		<item text="Stand (32833, 31266, 5)" tag="1"/>
+		<item text="Self.UseItemFromGround(32832, 31266, 5) wait(500,1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[if(Self.Position().y < 31267) then Walker.Goto("b4Lev1") end]]></item>
+		<item text="Stand (32834, 31270, 5)" tag="1"/>
+		<item text="loadStuck:" tag="255"/>
+		<item text="Stand (32834, 31272, 6)" tag="1"/>
+		<item text="Node (32836, 31281, 7)" tag="0"/>
+		<item text="Node (32836, 31296, 7)" tag="0"/>
+		<item text="Node (32834, 31310, 7)" tag="0"/>
+		<item text="Node (32833, 31324, 7)" tag="0"/>
+		<item text="Node (32838, 31331, 7)" tag="0"/>
+		<item text="Node (32838, 31344, 7)" tag="0"/>
+		<item text="Node (32837, 31356, 7)" tag="0"/>
+		<item text="b4GoVengoth:" tag="255"/>
+		<item text="Node (32837, 31365, 7)" tag="0"/>
+		<item text="GoVengoth:" tag="255"/>
+		<item text="Node (32863, 31549, 7)" tag="0"/>
+		<item text="Node (32876, 31543, 7)" tag="0"/>
+		<item text="Node (32885, 31539, 7)" tag="0"/>
+		<item text="Node (32891, 31530, 7)" tag="0"/>
+		<item text="Node (32898, 31523, 7)" tag="0"/>
+		<item text="Node (32910, 31519, 7)" tag="0"/>
+		<item text="Node (32917, 31515, 7)" tag="0"/>
+		<item text="Node (32926, 31510, 7)" tag="0"/>
+		<item text="Node (32938, 31508, 7)" tag="0"/>
+		<item text="Node (32941, 31506, 7)" tag="0"/>
+		<item text="Node (32946, 31506, 7)" tag="0"/>
+		<item text="Node (32952, 31505, 7)" tag="0"/>
+		<item text="Node (32957, 31501, 7)" tag="0"/>
+		<item text="Node (32965, 31501, 7)" tag="0"/>
+		<item text="Node (32974, 31501, 7)" tag="0"/>
+		<item text="Node (32979, 31497, 7)" tag="0"/>
+		<item text="Continue:" tag="255"/>
+		<item text="Stand (32980, 31495, 7)" tag="1"/>
+		<item text="Node (32981, 31494, 6)" tag="0"/>
+		<item text="Node (32986, 31485, 6)" tag="0"/>
+		<item text="Node (32989, 31480, 6)" tag="0"/>
+		<item text="Node (32990, 31480, 6)" tag="0"/>
+		<item text="Node (32993, 31480, 6)" tag="0"/>
+		<item text="Node (32997, 31480, 6)" tag="0"/>
+		<item text="Node (32992, 31488, 6)" tag="0"/>
+		<item text="Node (32988, 31494, 6)" tag="0"/>
+		<item text="Node (32990, 31498, 6)" tag="0"/>
+		<item text="Node (32996, 31494, 6)" tag="0"/>
+		<item text="Node (32997, 31490, 6)" tag="0"/>
+		<item text="Node (33001, 31485, 6)" tag="0"/>
+		<item text="Node (33003, 31478, 6)" tag="0"/>
+		<item text="Node (33002, 31470, 6)" tag="0"/>
+		<item text="Node (32993, 31463, 6)" tag="0"/>
+		<item text="Node (32994, 31457, 6)" tag="0"/>
+		<item text="Node (33002, 31459, 6)" tag="0"/>
+		<item text="Node (33008, 31466, 6)" tag="0"/>
+		<item text="Node (33000, 31458, 6)" tag="0"/>
+		<item text="Node (32990, 31457, 6)" tag="0"/>
+		<item text="Node (32985, 31450, 6)" tag="0"/>
+		<item text="Node (32988, 31441, 6)" tag="0"/>
+		<item text="Node (32993, 31439, 6)" tag="0"/>
+		<item text="Node (32996, 31442, 6)" tag="0"/>
+		<item text="Node (32997, 31446, 6)" tag="0"/>
+		<item text="Node (32994, 31449, 6)" tag="0"/>
+		<item text="Node (32990, 31455, 6)" tag="0"/>
+		<item text="Node (32993, 31463, 6)" tag="0"/>
+		<item text="Node (32991, 31471, 6)" tag="0"/>
+		<item text="Node (32988, 31479, 6)" tag="0"/>
+		<item text="Node (32984, 31489, 6)" tag="0"/>
+		<item text="Node (32981, 31495, 6)" tag="0"/>
+		<item text="Check:" tag="255"/>
+		<item text="Leave:" tag="255"/>
+		<item text="Stand (32980, 31495, 6)" tag="1"/>
+		<item text="Node (32976, 31500, 7)" tag="0"/>
+		<item text="Node (32971, 31501, 7)" tag="0"/>
+		<item text="Node (32964, 31501, 7)" tag="0"/>
+		<item text="Node (32958, 31501, 7)" tag="0"/>
+		<item text="Node (32953, 31504, 7)" tag="0"/>
+		<item text="Node (32947, 31505, 7)" tag="0"/>
+		<item text="Node (32942, 31506, 7)" tag="0"/>
+		<item text="Node (32933, 31512, 7)" tag="0"/>
+		<item text="Node (32924, 31514, 7)" tag="0"/>
+		<item text="Node (32909, 31514, 7)" tag="0"/>
+		<item text="Node (32897, 31519, 7)" tag="0"/>
+		<item text="Node (32889, 31532, 7)" tag="0"/>
+		<item text="Node (32878, 31542, 7)" tag="0"/>
+		<item text="Node (32868, 31547, 7)" tag="0"/>
+		<item text="Node (32861, 31549, 7)" tag="0"/>
+		<item text="b4GoBackYala:" tag="255"/>
+		<item text="Node (32856, 31549, 7)" tag="0"/>
+		<item text="GoBackYala:" tag="255"/>
+		<item text="Node (32837, 31357, 7)" tag="0"/>
+		<item text="Node (32837, 31344, 7)" tag="0"/>
+		<item text="Node (32837, 31332, 7)" tag="0"/>
+		<item text="Node (32833, 31321, 7)" tag="0"/>
+		<item text="Node (32833, 31308, 7)" tag="0"/>
+		<item text="Node (32835, 31296, 7)" tag="0"/>
+		<item text="Node (32836, 31283, 7)" tag="0"/>
+		<item text="Node (32836, 31274, 7)" tag="0"/>
+		<item text="Stand (32834, 31272, 7)" tag="1"/>
+		<item text="Stand (32834, 31270, 6)" tag="1"/>
+		<item text="b4Lev2W:" tag="255"/>
+		<item text="Stand (32833, 31269, 5)" tag="1"/>
+		<item text="Self.UseItemFromGround(32832, 31269, 5) wait(500,1000)" tag="254"/>
+		<item text="!cdataread" tag="254"><![CDATA[if(Self.Position().y >31268) then Walker.Goto("b4Lev2W") end]]></item>
+		<item text="Stand (32834, 31265, 5)" tag="1"/>
+		<item text="Stand (32834, 31263, 6)" tag="1"/>
+		<item text="Node (32833, 31253, 7)" tag="0"/>
+		<item text="Stand (32824, 31240, 7)" tag="1"/>
+		<item text="SellItems:" tag="255"/>
+		<item text="Node (32811, 31254, 7)" tag="0"/>
+		<item text="Stand (32783, 31248, 7)" tag="1"/>
+		<item text="Deposit:" tag="255"/>
+		<item text="Stand (32876, 31201, 5)" tag="1"/>
+	</control>
+</panel>
+<panel name="Walker Options">
+	<control name="ropeOption" value="0"/>
+	<control name="shovelOption" value="0"/>
+</panel>
+<panel name="Looter">
+	<control name="LootList" mode="0" minimum="0" maximum="0" skinner="0" unlisted="1">
+		<item ID="7383" action="3" deposit="0"/>
+		<item ID="7419" action="3" deposit="0"/>
+		<item ID="7428" action="3" deposit="0"/>
+		<item ID="3326" action="3" deposit="0"/>
+		<item ID="3055" action="3" deposit="0"/>
+		<item ID="7439" action="3" deposit="0"/>
+		<item ID="3081" action="3" deposit="0"/>
+		<item ID="10317" action="2" deposit="0"/>
+		<item ID="7643" action="1" deposit="0"/>
+		<item ID="5897" action="2" deposit="0"/>
+		<item ID="3053" action="3" deposit="0"/>
+		<item ID="236" action="2" deposit="0"/>
+		<item ID="3031" action="4" deposit="0"/>
+		<item ID="3725" action="0" deposit="0"/>
+		<item ID="3741" action="2" deposit="0"/>
+		<item ID="3269" action="3" deposit="0"/>
+	</control>
+</panel>
+<panel name="Pathfinder">
+	<control name="walkOnFireEnable" value="0"/>
+	<control name="walkOnFurnitureEnable" value="0"/>
+	<control name="walkOnMaroonGround" value="0"/>
+	<control name="pathThroughRangedCreatures" value="0"/>
+	<control name="walkWithMapclicks" value="1"/>
+</panel>
+<panel name="Mount">
+</panel>
+<panel name="Special Areas">
+	<control name="AreaList">
+	</control>
+</panel>
+<panel name="Alarms">
+	<control name="disAlarm" value="0"/>
+	<control name="damAlarm" value="0"/>
+	<control name="lhpAlarm" value="0"/>
+	<control name="lhpAlarmPercent" value="50"/>
+	<control name="pmAlarm" value="0"/>
+	<control name="creatureAlarm" value="0"/>
+	<control name="attackAlarm" value="1"/>
+	<control name="attackAlarmYellow" value="1"/>
+	<control name="playerAlarm" value="0"/>
+	<control name="playerAlarmLog" value="0"/>
+	<control name="stuckAlarm" value="0"/>
+	<control name="burstAlarm" value="0"/>
+	<control name="burstAlarmPercent" value="500"/>
+	<control name="averageAlarm" value="0"/>
+	<control name="averageAlarmPercent" value="200"/>
+	<control name="alarmPartyIgnore" value="0"/>
+</panel>
+<panel name="Scripter">
+	<control name="RunningScriptList">
+		<script name="[100+ EK] Vengoth Werewolves.lua"><![CDATA[ZG9maWxlKCdbQ09ORklHXSBFSyBWZW5nb3RoIFdlcmV3b2x2ZXMubHVhJykNCmRvZmlsZSgnc3NMaWIubHVhJykNCg0KcmVnaXN0ZXJFdmVudExpc3RlbmVyKFdBTEtFUl9TRUxFQ1RMQUJFTCwgIm9uTGFiZWwiKQ0KcHJpbnQoIlZFTkdPVEggV0VSRVdPTFZFUyEgQ0hFQ0sgT1VUIFdXVy5Tb2xpZC1TY3JpcHRzLkNPTSBGT1IgTU9SRSBTQ1JJUFRTLiIpDQoNCl9leHRyYSA9IDEwMDANCg0KVGFyZ2V0aW5nLlN0YXJ0KCkNCkxvb3Rlci5TdGFydCgpDQoNCmZ1bmN0aW9uIG9uTGFiZWwobGFiZWwpDQoJaWYobGFiZWwgPT0gIkJhY2twYWNrcyIpIHRoZW4NCgkJQ2xpZW50LkhpZGVFcXVpcG1lbnQoKQ0KCQlyZXBlYXQNCgkJCVNlbGYuQ2xvc2VDb250YWluZXJzKCkNCgkJCXdhaXQoMjAwLCA0MDApDQoJCQlTZWxmLk9wZW5NYWluQmFja3BhY2sodHJ1ZSk6T3BlbkNoaWxkcmVuKHtfc3VwcGxpZXNCYWNrcGFjaywgdHJ1ZX0sIHtfc3RhY2tCYWNrcGFjaywgdHJ1ZX0sIHtfcmFyZUJhY2twYWNrLCB0cnVlfSwge19nb2xkQmFja3BhY2ssIHRydWV9KQ0KCQkJd2FpdCgyMDAsIDQwMCkNCgkJdW50aWwgU29saWRTY3JpcHRzLkNoZWNrQmFja3BhY2tzKDUpDQoJZWxzZWlmKGxhYmVsID09ICJQb3Rpb25zTlBDIikgdGhlbg0KCQlTb2xpZFNjcmlwdHMuQnV5UG90aW9ucyhmYWxzZSkNCgllbHNlaWYobGFiZWwgPT0gIkJhbmtOUEMiKSB0aGVuDQoJCVNvbGlkU2NyaXB0cy5XaXRoZHJhd01vbmV5KCkNCgllbHNlaWYobGFiZWwgPT0gIlJ1bmVzTlBDIikgdGhlbg0KCQlTb2xpZFNjcmlwdHMuQnV5UnVuZXMoKQ0KCWVsc2VpZihsYWJlbCA9PSAiQ2hlY2tTb2Z0cyIpIHRoZW4NCgkJU29saWRTY3JpcHRzLkNoZWNrU29mdHMoKQ0KCWVsc2VpZihsYWJlbCA9PSAiRml4U29mdCIpIHRoZW4NCgkJU29saWRTY3JpcHRzLlJlcGFpclNvZnRzKCkJCQ0KCWVsc2VpZihsYWJlbCA9PSAiQ2hlY2tTdXBwbGllcyIpIHRoZW4NCgkJU29saWRTY3JpcHRzLkNoZWNrU3VwcGxpZXMoKQ0KCWVsc2VpZihsYWJlbCA9PSAiQ2hlY2siKSB0aGVuDQoJCVNvbGlkU2NyaXB0cy5DaGVjaygiTGVhdmUiLCAiQ29udGludWUiKQ0KCWVsc2VpZihsYWJlbCA9PSAiU3RhbWluYSIpIHRoZW4NCgkJU29saWRTY3JpcHRzLkNoZWNrU3RhbWluYSgpDQoJZWxzZWlmKGxhYmVsID09ICJEZXBvc2l0IikgdGhlbg0KCQlTb2xpZFNjcmlwdHMuUmVhY2hEZXBvdCgpDQoJCVNlbGYuRGVwb3NpdEl0ZW1zKHs3MzgzLCAwfSwgezc0MTksIDB9LCB7NzQyOCwgMH0sIHszMzI2LCAwfSwgezMwNTUsIDB9LCB7MzA4MSwgMH0sIHszMjY5LCAwfSwgezM1NTcsIDB9LCB7MzA1MywgMH0sIHszNDEwLCAwfSwgezMyODYsIDB9KQ0KCQlTZWxmLkRlcG9zaXRJdGVtcyh7NzQzOSwgMX0sIHsxMDMxNywgMX0sIHs1ODk3LCAxfSwgezIzNiwgMX0sIHszNzQxLCAxfSkNCgllbHNlaWYobGFiZWwgPT0gIkRvb3JTaGlwIikgdGhlbg0KCQlTb2xpZFNjcmlwdHMuQ2hlY2tEb29ycygzMjgxNywgMzEyNzUsIFNPVVRILCAiYjREb29yU2hpcCIpDQoJZWxzZWlmKGxhYmVsID09ICJUcmF2ZWxWZW5vcmUiKSB0aGVuDQoJCVNvbGlkU2NyaXB0cy5UcmF2ZWwoIkthcml0aCIsIHsiaGkiLCAidmVub3JlIiwgInllcyJ9LCAiYjRUcmF2ZWxWZW5vcmUiKQ0KCWVsc2VpZihsYWJlbCA9PSAiVHJhdmVsVmVub3JlMiIpIHRoZW4NCgkJU29saWRTY3JpcHRzLlRyYXZlbCgiS2FyaXRoIiwgeyJoaSIsICJ2ZW5vcmUiLCAieWVzIn0sICJiNFRyYXZlbFZlbm9yZTIiKQ0KCWVsc2VpZihsYWJlbCA9PSAiVHJhdmVsVmVub3JlMyIpIHRoZW4NCgkJU29saWRTY3JpcHRzLlRyYXZlbCgiQ2FwdGFpbiBTZWFob3JzZSIsIHsiaGkiLCAidmVub3JlIiwgInllcyJ9LCAiYjRUcmF2ZWxWZW5vcmUzIikNCgllbHNlaWYobGFiZWwgPT0gIlRyYXZlbFlhbGFoYXIiKSB0aGVuDQoJCVNvbGlkU2NyaXB0cy5UcmF2ZWwoIkNhcHRhaW4gRmVhcmxlc3MiLCB7ImhpIiwgInlhbGFoYXIiLCAieWVzIn0sICJiNFRyYXZlbFlhbGFoYXIiKQ0KCWVsc2VpZihsYWJlbCA9PSAiVHJhdmVsWWFsYWhhcjIiKSB0aGVuDQoJCVNvbGlkU2NyaXB0cy5UcmF2ZWwoIkNhcHRhaW4gRmVhcmxlc3MiLCB7ImhpIiwgInlhbGFoYXIiLCAieWVzIn0sICJiNFRyYXZlbFlhbGFoYXIyIikJDQoJZWxzZWlmKGxhYmVsID09ICJUcmF2ZWxFZHJvbiIpIHRoZW4NCgkJU29saWRTY3JpcHRzLlRyYXZlbCgiQ2FwdGFpbiBGZWFybGVzcyIsIHsiaGkiLCAiZWRyb24iLCAieWVzIn0sICJiNFRyYXZlbEVkcm9uIikNCgllbHNlaWYobGFiZWwgPT0gIkdvVmVuZ290aCIpIHRoZW4NCgkJU29saWRTY3JpcHRzLlRyYXZlbCgiSGFybG93IiwgeyJoaSIsICJ2ZW5nb3RoIiwgInllcyIsICJ5ZXMifSwgImI0R29WZW5nb3RoIikNCgllbHNlaWYobGFiZWwgPT0gIkdvQmFja1lhbGEiKSB0aGVuDQoJCVNvbGlkU2NyaXB0cy5UcmF2ZWwoIkhhcmxvdyIsIHsiaGkiLCAieWFsYWhhciIsICJ5ZXMifSwgImI0R29CYWNrWWFsYSIpCQ0KCWVsc2VpZihsYWJlbCA9PSAiU2VsbEl0ZW1zIikgdGhlbg0KCQlTb2xpZFNjcmlwdHMuU2VsbEl0ZW1zKCJNb3JwZWwiLCB7MzI2OSwgMzM1MX0pDQoJZW5kDQplbmQNCg0KaWYoX2Ryb3BWaWFscykgdGhlbg0KCU1vZHVsZS5TdGFydCgndmlhbC1kcm9wcGVyJykNCmVuZA0KDQppZihfcmVmaWxsTWFuYSkgdGhlbg0KCU1vZHVsZS5TdGFydCgnbWFuYS1yZWZpbGxlcicpDQplbmQNCg0KaWYoX3VzZVNvZnRCb290cykgdGhlbg0KCU1vZHVsZS5TdGFydCgnZXF1aXAtc29mdHMnKQ0KZW5kDQoNCmlmKF9zY3JlZW5MZXZlbCkgdGhlbg0KCU1vZHVsZS5TdGFydCgnc2NyZWVuLXNob290ZXInKQ0KZW5kDQoNCmlmKF91c2VSZWNvdmVyeVNwZWxsKSB0aGVuDQoJTW9kdWxlLlN0YXJ0KCdyZWNvdmVyeS1jYXN0ZXInKQ0KZW5kDQoNCk1vZHVsZS5TdGFydCgnc29ydC1zdXBwbGllcycp]]></script>
+	</control>
+</panel>
+<panel name="Advertising">
+	<control name="watchSellingWords" value="item, item2"/>
+	<control name="watchSellingEnable" value="0"/>
+	<control name="watchBuyingWords" value="item, item2"/>
+	<control name="watchBuyingEnable" value="0"/>
+	<control name="blockLinksEnable" value="0"/>
+	<control name="reduceSpamEnable" value="0"/>
+</panel>

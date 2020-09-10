@@ -1,0 +1,41 @@
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Hellspawn" chs="5" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Spectre" chs="5" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Vampire Bride" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Vampire" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Werewolf" chs="5" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Mutated Bat" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Nightstalker" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Nightmare Scion" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Ghoul" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Banshee" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Priestess" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Bonebeast" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Demon Skeleton" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Elder Bonelord" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Crypt Shambler" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Skeleton" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Tarantula" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Energy Elemental" chs="0" max="100" min="0" prio="0" prox="7" count="1"/>
+		<item type="Haunted Treeling" chs="0" max="100" min="0" prio="10" prox="1" count="1"/>
+		<item type="War Wolf" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Crazed Beggar" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Smuggler" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Wild Warrior" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Amazon" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Valkyrie" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Bandit" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Nomad" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Gang Member" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Poacher" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Goblin Assassin" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Crocodile" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Cat" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Haunted Treeling" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Slime" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Gargoyle" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Scorpion" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+		<item type="Gazer" chs="0" max="100" min="0" prio="10" prox="7" count="1"/>
+	</control>
+</panel>
